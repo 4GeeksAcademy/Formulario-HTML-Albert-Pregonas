@@ -1,0 +1,44 @@
+#formulario{
+height: 100vh;
+width: 80vw;
+}
+
+table {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+table.table-bordered {
+    border-bottom: 1px solid lightgrey;
+}
+
+#add{
+    font-size: 14px;
+    color: gray;
+    margin-top: 16px;
+}
+
+#card{
+    display: 
+    flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+
+    background-color: grey;
+    width: 260px;
+    border-radius: 6px;
+    padding: 8px 0px 8px 0px;
+}
+
+i{
+    color: white;
+}
+
+#floatingTextarea {
+    min-height: 100px;
+}
+
+tbody tr{
+    border: none;
+    border-color: lightgrey;
+}
