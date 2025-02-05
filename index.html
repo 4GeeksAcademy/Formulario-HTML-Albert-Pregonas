@@ -85,27 +85,28 @@
                         <div class="row me-1 ms-1" id="last">
                             <div class="col-6 mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">We accept:</label>
+                                <!--Se ha modificado con style los form-checks para poder alinear el icono con el botón-->
                                 <div class="d-flex flex-row" id="card">
-                                    <div class="form-check pe-4">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                    <div class="form-check form-check-inline" style="display: flex; gap: 5px; align-items: center;">
+                                        <input class="form-check-input radinput" type="radio" name="flexRadioDefault" id="flexRadioDefault2" style="padding-bottom: 0px; padding-top: 0px; margin-bottom: 4px;">
                                         <label class="form-check-label" for="flexRadioDefault2">
                                             <i class="fa-brands fa-cc-visa"></i>
                                         </label>
                                     </div>
-                                    <div class="form-check pe-4">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <div class="form-check form-check-inline" style="display: flex; gap: 5px; align-items: center;">
+                                        <input class="form-check-input radinput" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="padding-bottom: 0px; padding-top: 0px; margin-bottom: 4px;">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             <i class="fa-brands fa-cc-mastercard"></i>
                                         </label>
                                     </div>
-                                    <div class="form-check pe-4">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <div class="form-check form-check-inline" style="display: flex; gap: 5px; align-items: center;">
+                                        <input class="form-check-input radinput" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="padding-bottom: 0px; padding-top: 0px; margin-bottom: 4px;">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             <i class="fa-brands fa-paypal"></i>
                                         </label>
                                     </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <div class="form-check form-check-inline" style="display: flex; gap: 5px; align-items: center;">
+                                        <input class="form-check-input radinput" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="padding-bottom: 0px; padding-top: 0px; margin-bottom: 4px;">
                                         <label class="form-check-label" for="flexRadioDefault1">
                                             <i class="fa-brands fa-cc-apple-pay"></i>
                                         </label>
@@ -114,9 +115,8 @@
                             </div>
                             <div class="col-6 mb-3">
                                 <label for="floatingTextarea" class="form-label">Comments</label>
-                                <div class="form-floating">
+                                <!-- Se ha eliminado el div para que pueda empezar al principio el Text Area-->
                                     <textarea class="form-control form-control-lg" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                                </div>
                                 <p id="add">Add any notes here.</p>
                             </div>
                         </div>

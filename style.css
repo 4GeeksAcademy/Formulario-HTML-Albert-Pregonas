@@ -19,10 +19,9 @@ table.table-bordered {
 }
 
 #card{
-    display: 
-    flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     background-color: grey;
     width: 260px;
@@ -32,6 +31,7 @@ table.table-bordered {
 
 i{
     color: white;
+    font-size: 18px;
 }
 
 #floatingTextarea {
